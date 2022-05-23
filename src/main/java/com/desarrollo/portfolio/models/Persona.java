@@ -57,7 +57,7 @@ public class Persona {
     private String sobremi;
     
     @Length(min=3, max=50)
-    @NotEmpty
+    @NotNull
     private String ocupacion;
     
     @NotEmpty 
